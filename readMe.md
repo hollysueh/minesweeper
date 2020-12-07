@@ -9,8 +9,10 @@ The following React packages were used to create this game:
 1. React-Router-DOM (more information found here: https://reactrouter.com/web/guides/quick-start)
 1. React-Addons-Update (more information found here: https://reactjs.org/docs/update.html)
 
-#### Executing Programme
-To launch the game, click on the link [here](http://www.google.com).
+#### Installation
+To install the game files, go to the repository 'minesweeper'. On the left hand side there will be a green button labelled "Code". Click on this button, and from the dropdown menu click "Download zip. The zip file will then start automatically downloading to your computer.
+
+Once the zip file has finished downloading, open it by double-clicking on the file. Open a Terminal window (for Mac) or Command Prompt window (for Windows) in that folder. In the window, type "npm install" and wait for the files to install. Then type "npm start", which will load the game in your browser. 
 
 ## Usage
 #### How to Play
