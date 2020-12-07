@@ -1,38 +1,70 @@
+/* Main App Page Styling */
 .App {
   text-align: center;
+  margin: 50px solid cyan;
+  padding: 30px;
+  background-color: darkcyan;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Minesweeper Game Styling */
+table {
+  margin-left: 460px;
+  margin-right: 380px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  border: 1px solid grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr {
+  border: 1px solid grey;
+  background-color: lightgrey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cellButton {
+  margin: 1px;
+  border: 1px solid grey;
+  padding: 30px;
+  border-radius: 0.3em;
+  background-color: white;
+}
+
+.cellButtonTxt {
+  margin: 0px;
+  color: darkcyan;
+}
+
+/* Help Page Styling */
+.helpBorder {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.helpCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3em;
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.helpCardBody {
+  padding: 15px;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+/* 'Help' & 'Re-Start Game' Buttons Styling */
+button,
+.button {
+  padding: 10px;
+  margin: 10px;
+  font-size: medium;
+  text-decoration: none;
+  color: black;
 }
