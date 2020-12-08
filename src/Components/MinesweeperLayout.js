@@ -27,7 +27,7 @@ class MinesweeperLayout extends Component {
      var bombArray = [];
 
      while (bombArray.length < 3) {
-      var b = Math.floor(Math.random() * 25) + 1;
+      var b = Math.floor(Math.random() * 13) + 7;
       bombArray.push(b);
       }
 
