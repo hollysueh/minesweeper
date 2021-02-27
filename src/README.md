@@ -1,7 +1,9 @@
 # A Simple Minesweeper Game
+
 This is a simple minesweeper game created using 'Create React App'. This game is part of HyperionDev's "Full-Stack Web Development" course and is one of their Capstone Projects.
 
 ## Getting Started
+
 #### Dependencies
 The following React packages were used to create this game:
 1. Create React App
@@ -10,13 +12,15 @@ The following React packages were used to create this game:
 1. React-Addons-Update (more information found here: https://reactjs.org/docs/update.html)
 
 #### Installation
-##### Locaal Computer
-Copy the file 'L2T12.zip' to your local computer. Double-click on the zip file to decompress it.
-Once decompressed, open a Terminal window (for Mac) or Command Prompt window (for Windows) in that folder. In the window, type "npm install" and wait for the files to install. Then type "npm start", which will load the game in your browser. 
+#####Zip file
+Move the file 'L2T12.zip' to your local computer. Double-click on the zip file to decompress it.
+Once the file has been decompressed, open your command line interface in the L2T12 folder.
 
-##### GitHub
-To install the game files, go to the repository 'minesweeper'. On the left hand side there will be a green button labelled "Code". Click on this button, and from the dropdown menu click "Download zip. The zip file will then start automatically downloading to your computer.
+Open a Terminal window (for Mac) or Command Prompt window (for Windows) in that folder. 
+In the window, type "npm install" and wait for the files to install. Then type "npm start", which will load the game in your browser. 
 
+#####GitHub
+To install the game files on GitHub, go to the repository 'minesweeper'. On the left hand side there will be a green button labelled "Code". Click on this button, and from the dropdown menu click "Download zip. The zip file will then start automatically downloading to your computer.
 Once the zip file has finished downloading, open it by double-clicking on the file. Open a Terminal window (for Mac) or Command Prompt window (for Windows) in that folder. In the window, type "npm install" and wait for the files to install. Then type "npm start", which will load the game in your browser. 
 
 ## Usage

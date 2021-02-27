@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter } from 'react-router-dom';
 
 //Import Components
-import MinesweeperLayout from './Components/MinesweeperLayout';
+import MinesweeperGame from './Components/MinesweeperGame';
 import HelpBtn from './Components/HelpBtn';
 
 class App extends Component {
@@ -23,10 +23,10 @@ class App extends Component {
         <BrowserRouter>
           <h1>A Simple Minesweeper Game</h1>        
           <HelpBtn />
-          <MinesweeperLayout />
-          <small>Click a cell to begin</small><br></br>
+          <MinesweeperGame />
+          <p>Click a cell to begin</p><br></br>
           <br></br>
-          <button onClick={this.reStart}>Re-start Game</button>
+          <button className="restartButton" onClick={this.reStart}>Re-start Game</button>
         </BrowserRouter>
       </div>
     );

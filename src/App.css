@@ -1,69 +1,68 @@
 /* Main App Page Styling */
 .App {
-  text-align: center;
-  margin: 50px solid cyan;
+  margin: 50px solid darkcyan;
   padding: 30px;
   background-color: darkcyan;
+  text-align: center;
 }
 
 /* Minesweeper Game Styling */
-table {
-  margin-left: 460px;
-  margin-right: 380px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.minesweeperTable {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  display: inline-flex;
   background-color: lightgray;
-  border: 1px solid grey;
 }
-
-tr {
-  border: 1px solid grey;
-  background-color: lightgrey;
+.row {
+  margin: 1px;
+  padding: 1px;
 }
-
+.buttonHolder {
+  padding: 1px;
+}
 .cellButton {
   margin: 1px;
+  padding: 0px;
   border: 1px solid grey;
-  padding: 30px;
   border-radius: 0.3em;
+  height: 4.5em;
+  width: 4.5em;
   background-color: white;
 }
-
 .cellButtonTxt {
-  margin: 0px;
   color: darkcyan;
 }
 
 /* Help Page Styling */
 .helpBorder {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding-top: 10px;
-}
-
-.helpCard {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.helpCard {
   border: 1px solid black;
   border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-color: lightgray;
 }
-
 .helpCardBody {
   padding: 15px;
 }
-
 .cardTitle {
   font-weight: bold;
 }
 
 /* 'Help' & 'Re-Start Game' Buttons Styling */
-button,
-.button {
-  padding: 10px;
+.restartButton,
+.helpButton {
   margin: 10px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 0.3em;
   font-size: medium;
   text-decoration: none;
   color: black;
