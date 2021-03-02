@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css'
 import update from 'react-addons-update';
 
-class MinesweeperLayout extends Component {
+class MinesweeperGame extends Component {
   constructor(props) {
     super(props);
     //Initialise states ("Cells" = minesweeper cell values)
@@ -245,7 +245,7 @@ class MinesweeperLayout extends Component {
   }
 }
 
-export default MinesweeperLayout;
+export default MinesweeperGame;
 
 /* REFERENCES:
   bombArray:
