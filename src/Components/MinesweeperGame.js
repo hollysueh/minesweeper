@@ -29,11 +29,10 @@ class MinesweeperGame extends Component {
       let b = Math.floor(Math.random() * 13) + 7;
       bombArray.push(b);
       }
-
      //Assign values to cells:
      for (let i = 0; i < this.state.cells.length; i++) {
       for (let j = 0; j < bombArray.length; j++) {
-        if (bombArray[j] === this.state.cells[i].id) {
+        if (bombArray[j] == this.state.cells[i].id) {
           //Assign 'bomb' to bomb values
             let stateCopy = Object.assign({}, this.state);
             stateCopy.cells[i].cellTxt = '💣';
